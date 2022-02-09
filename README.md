@@ -1,58 +1,57 @@
-# Strapi Starter Gatsby Blog
+# 🚀 Getting started with Strapi
 
-Gatsby starter for creating a blog with Strapi.
+Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-![screenshot image](/screenshot.png)
+### `develop`
 
-This starter allows you to try Strapi with Gatsby with the example of a simple blog. It is fully customizable and due to the fact that it is open source, fully open to contributions. So do not hesitate to add new features and report bugs!
+Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
-## Features
-
-- 2 Content types: Article, Category
-- 2 Created articles
-- 3 Created categories
-- Responsive design using UIkit
-- SEO and social media friendly
-
-This starter uses the [Strapi blog template](https://github.com/strapi/strapi-template-blog)
-
-Check out all of our starters [here](https://strapi.io/starters)
-
-Pages:
-
-- "/" to display every articles
-- "/article/:id" to display one article
-- "/category/:id" display articles depending on the category
-
-## Getting started
-
-Use our `create-strapi-starter` CLI to create your project.
-
-```sh
-# Using Yarn
-yarn create strapi-starter my-site gatsby-blog
-
-# Or using NPM
-npx create-strapi-starter my-site gatsby-blog
+```
+npm run develop
+# or
+yarn develop
 ```
 
-The CLI will create a monorepo, install dependencies, and run your project automatically.
+### `start`
 
-The Gatsby frontend server will run here => [http://localhost:8000](http://localhost:8000)
+Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
-The Strapi backend server will run here => [http://localhost:1337](http://localhost:1337)
+```
+npm run start
+# or
+yarn start
+```
 
-## Deploying to production
+### `build`
 
-You will need to deploy the `frontend` and `backend` projects separately. Here are the docs to deploy each one:
+Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
-- [Deploy Strapi](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/deployment.html#hosting-provider-guides)
-- [Deploy Gatsby](https://www.gatsbyjs.com/docs/deploying-and-hosting/)
+```
+npm run build
+# or
+yarn build
+```
 
-Don't forget to setup the environment variables on your production app:
+## ⚙️ Deployment
 
-For the frontend the following environment variable is required: 
-- `API_URL`: URL of your Strapi backend, without trailing slash
+Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
 
+## 📚 Learn more
 
-Enjoy this starter!
+- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
+- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
+- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
+- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
+- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+
+Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+
+## ✨ Community
+
+- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
+- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+
+---
+
+<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>

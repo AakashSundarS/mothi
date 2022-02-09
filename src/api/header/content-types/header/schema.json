@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "headersses",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headersses",
+    "displayName": "headerss",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Aakash": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}
